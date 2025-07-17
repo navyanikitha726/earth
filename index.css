@@ -1,0 +1,98 @@
+* {
+    cursor:url('hug.png'), auto;
+}
+
+
+
+#first {
+    position: relative;
+    background-image: none;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+ #second{
+            width: 100%;
+            height: 800px;
+            background-image: url("bg22.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 30px;
+
+        }
+
+        #h1{
+
+        }
+
+        #second img{
+            border: 2px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+
+        #second img:hover{
+            transform: rotate(5deg) scale(1.03);
+        }
+
+        #second-child1{
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+
+        #second-child2{
+            background-color: rgba(255, 255, 255, 0.424);
+            width: 95%;
+            border-radius: 15px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    #third{
+            background: conic-gradient(from 0deg,#002366,#0057b7,#0f52ba,#4682b4,#002366);
+            background-color: rgba(255, 255, 255, 0.424);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            padding: 80px;
+            text-align: center;
+        }
+
+         #third  img{
+            border: 2px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+
+        #third img:hover{
+            transform: rotate(5deg) scale(1.03);
+        }
+#head {
+            background:conic-gradient(from 0deg,#002366,#0057b7,#0f52ba,#4682b4,#002366);
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            font-size: 18px;
+            color:white;
+
+        }

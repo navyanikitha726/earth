@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#border{
+    background-image:url('https://cdn.pixabay.com/photo/2021/05/27/14/56/field-6288341_1280.jpg') ;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    filter: blur(35%);
+    padding-left:7px;
+    height: 900px;
+}
+#fresh{
+    display: flex;
+}
+#img-1{
+    margin-right:100px;
+    margin-bottom:50px
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#para-1{
+    margin-right:10px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+#polluted{
+    display: flex;
+}
+#img-2{
+    margin-right:100px;
+    margin-bottom:50px
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#para-2{
+    
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}

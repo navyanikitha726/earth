@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    
+}
+#border{
+    background-image:url('https://cdn.pixabay.com/photo/2020/06/12/18/26/dandelion-5291405_1280.jpg') ;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    filter: blur(35%);
+    padding-left:7px;
+}
+#fresh{
+    display: flex;
+}
+#img-1{
+    margin-right:100px;
+    margin-bottom:50px
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#para-1{
+    margin-right:10px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+#Polluted{
+    display: flex;
+}
+#img-2{
+    margin-right:100px;
+    margin-bottom:50px
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#para-2{
+    /* margin-left:10px; */
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
